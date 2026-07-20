@@ -1,10 +1,10 @@
 import { useState, useRef } from 'react'
 import { createPortal } from 'react-dom'
 
-// Path ini nunjuk ke public/downloads/, jadi setelah di-build & hosting,
-// filenya bisa diakses langsung di: https://domainlu.com/downloads/PembelajaranSistemKomputer.exe
-const DOWNLOAD_URL = '/downloads/PembelajaranSistemKomputer.exe'
-const FILE_NAME = 'PembelajaranSistemKomputer.exe'
+// File di-hosting di GitHub Releases (bukan di public/downloads/ lagi),
+// biar gak bikin ukuran repo/git jadi besar.
+const DOWNLOAD_URL = 'https://github.com/jalmo02/pembelajaran-sistem-komputer/releases/download/v1.0.0/Pembelajaran.Sistem.Komputer.Setup.1.0.0.exe'
+const FILE_NAME = 'Pembelajaran.Sistem.Komputer.Setup.1.0.0.exe'
 
 const isElectron = () => navigator.userAgent.toLowerCase().includes('electron')
 
