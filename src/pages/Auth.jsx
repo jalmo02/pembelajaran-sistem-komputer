@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import DesktopOnlyGuard from '../components/DesktopOnlyGuard'
-// import DownloadAppButton from '../components/DownloadAppButton'
+import DownloadAppButton from '../components/DownloadAppButton'
 
 // Import avatars
 import Avatar1 from '../assets/images/avatar/Avatar1.png'
@@ -73,7 +73,7 @@ const Auth = () => {
       }}
     >
       <DesktopOnlyGuard />
-      {/* <DownloadAppButton style={{ position: 'fixed', top: 20, right: 20, zIndex: 30 }} /> */}
+      <DownloadAppButton style={{ position: 'fixed', top: 20, right: 20, zIndex: 30 }} />
 
       {/* Overlay — tanpa blur, cuma gelapin biar teks kebaca */}
       <div className="absolute inset-0 bg-background/80" />

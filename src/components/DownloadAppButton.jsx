@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom'
 
 // File di-hosting di GitHub Releases (bukan di public/downloads/ lagi),
 // biar gak bikin ukuran repo/git jadi besar.
-const DOWNLOAD_URL = 'https://github.com/jalmo02/pembelajaran-sistem-komputer/releases/download/v1.0.0/Pembelajaran.Sistem.Komputer.Setup.1.0.0.exe'
+const DOWNLOAD_URL = 'https://github.com/jalmo02/pembelajaran-sistem-komputer/releases/download/v1.0.1/Pembelajaran.Sistem.Komputer.Setup.1.0.0.exe'
 const FILE_NAME = 'Pembelajaran.Sistem.Komputer.Setup.1.0.0.exe'
 
 const isElectron = () => navigator.userAgent.toLowerCase().includes('electron')
